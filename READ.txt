@@ -1,0 +1,12 @@
+Kreirati bazu sa tabelom Student sa poljima id, ime, prezime, prosek i ručno popuniti nekoliko Studenata u bazu, 		(10 bodova)
+
+Kreirati DAO klasu sa metodama:			(15 bodova)	
+o	ArrayList<Student> boljiOD (float prosek): vraća listu svih Studenta sa boljim prosekom od prosleđenog proseka. 						
+Kreirati index.php koji samo ispisuje povratne poruke od servleta ako nešto nije dobro prosleđeno. 				(5 bodova)
+
+Kreirati Kontroler koji u : 				(10 bodova)	
+o	doPost sa prosleđenim parametrom prosek iz baze uzima listu studenata i preko sesije šalje ih na prikazBolji.jsp	
+o	doGet radi logout i unistava sesiju i vraća na index.jsp		
+
+Kreirati prikaz.php koji ispisuje listu Studenata (tabela) ako sesija postoji, a u suprotnom redirektuje na index.jsp. Ispod liste postaviti link za logout.							(15 bodova)
+Povezani DAO, KONTROLER i PHP koji rade 	(15 bodova)
